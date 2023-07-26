@@ -22,12 +22,12 @@ namespace PdfViewerWebService
         private IWebHostEnvironment _hostingEnvironment;
         //Initialize the memory cache object   
         public IMemoryCache _cache;
-        //private static readonly string[] Scopes = { DriveService.Scope.DriveFile, DriveService.Scope.DriveReadonly };
         string[] Scopes = { DriveService.Scope.Drive };
         private IConfiguration _configuration;
         public readonly string folderId;
         private readonly string applicationName;
         public readonly string credentialPath;
+
         public PdfViewerController(IWebHostEnvironment hostingEnvironment, IMemoryCache cache, IConfiguration configuration)
         {
             _hostingEnvironment = hostingEnvironment;
