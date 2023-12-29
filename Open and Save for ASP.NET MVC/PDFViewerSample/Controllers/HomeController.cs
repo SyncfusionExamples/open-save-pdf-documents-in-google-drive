@@ -21,18 +21,14 @@ namespace GettingStartedMVC.Controllers
     public class HomeController : Controller
     {
 
-        //// Specify the path to the credentials file
-        //private string credentialsPath = "Your Path to the OAuth 2.0 Client IDs json file";
-        //// Specify the folder ID where you want to upload the PDF on Google Drive
-        //private readonly string folderId = "Your Google Drive Folder ID";
-        //private readonly string ApplicationName = "Your Application Name";
-        //private readonly string tokenjson = "Path to create token.json file";
+        // Specify the path to the credentials file
+        private string credentialsPath = "Your Path to the OAuth 2.0 Client IDs json file";
 
-        private string credentialsPath = "D:\\open pdf document\\oogle drive\\mvc\\PDFViewerSample\\Controllers\\data\\client_secret.json";
         // Specify the folder ID where you want to upload the PDF on Google Drive
-        private readonly string folderId = "10AhOeauKRpKP9I1goXgm1lW4zcA2JauJ";
+        private readonly string folderId = "Your Google Drive Folder ID";
         private readonly string ApplicationName = "Your Application Name";
-        private readonly string tokenjson = "D:\\open pdf document\\oogle drive\\mvc\\PDFViewerSample\\Controllers\\";
+        private readonly string tokenjson = "Path to create token.json file";
+
 
         [System.Web.Mvc.HttpPost]
         public async Task<ActionResult> Load(jsonObjects jsonObject)
