@@ -1,8 +1,8 @@
 # open-save-pdf-documents-in-azure-blob-storage
 
-This repo contains the examples to open and save PDF documents in Google Drive using the Syncfusion PDF Viewer.
+This repo contains the examples to open and save PDF documents in Google Drive using the Syncfusion&reg; PDF Viewer.
 
-The provided instructions explain how to run different samples that utilize the Syncfusion PDF Viewer to open and save PDF documents stored in Google Drive. Here is a breakdown of the steps to run each sample
+The provided instructions explain how to run different samples that utilize the Syncfusion&reg; PDF Viewer to open and save PDF documents stored in Google Drive. Here is a breakdown of the steps to run each sample
 
 ## WebService Sample
 
@@ -120,4 +120,4 @@ npm install
 npm start
 ```
 
-After following these steps, you should be able to view and interact with PDF documents stored in Google Drive using the Syncfusion PDF Viewer in the respective client application.
+After following these steps, you should be able to view and interact with PDF documents stored in Google Drive using the Syncfusion&reg; PDF Viewer in the respective client application.
